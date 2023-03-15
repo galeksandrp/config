@@ -150,8 +150,8 @@ $data = $conf->all();
 
 ### Setting values
 
-Although Config supports setting values via `set()` or, via the
-array syntax, **any changes made this way are NOT reflected back to the
+Although Config supports setting values via `set()`,
+**any changes made this way are NOT reflected back to the
 source files**. By design, if you need to make changes to your
 configuration files, you have to do it manually.
 
